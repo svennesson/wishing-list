@@ -54,7 +54,7 @@ export class LandingPageComponent implements OnInit {
           'Dessutom har Sony flertalet exklusiva titlar som enligt rykten kan komma att släppas i samband med den nya konsolen.'
         ],
         imageName: 'ps5.jpg',
-        link: ''
+        link: 'https://www.prisjakt.nu/produkt.php?p=5113846'
       },
       {
         title: 'Kupévärmare',
@@ -74,7 +74,7 @@ export class LandingPageComponent implements OnInit {
           'Nya Philips Airfryer XXL HD9867 kan med sin Smart Sensing-teknik automatiskt anpassa tid och temperatur under tillagningen av din mat för att ge dig perfekt tillagade maträtter.'
         ],
         imageName: 'airfryer.jpg',
-        link: ''
+        link: 'https://www.prisjakt.nu/produkt.php?p=5357198'
       },
       {
         title: 'Playstation 5 - Charging Station',
@@ -84,7 +84,7 @@ export class LandingPageComponent implements OnInit {
           'The PS5 DualSence Dual Charger will recharge your wireless DualSence controller\'s batteries simply by docking the controllers into the Charger stand. Its LED lights indicate when charging is complete.'
         ],
         imageName: 'charging.jpg',
-        link: ''
+        link: 'https://www.prisjakt.nu/search?search=ps5%20charging%20station'
       },
       {
         title: 'Playstation 5 - DualSense handkontroll',
@@ -94,7 +94,7 @@ export class LandingPageComponent implements OnInit {
           'Kontrollen tar ett avsteg i design från de tidigare Dualshock – kontrollerna, med en mycket mer slät design.'
         ],
         imageName: 'controll.jpg',
-        link: ''
+        link: 'https://www.prisjakt.nu/produkt.php?p=5334714'
       },
       {
         title: 'Demon’s Souls',
@@ -104,7 +104,7 @@ export class LandingPageComponent implements OnInit {
           'Entirely rebuilt from the ground up and masterfully enhanced, this remake introduces the horrors of a fog-laden, dark fantasy land to a whole new generation of gamers.'
         ],
         imageName: 'demon-souls.jpg',
-        link: ''
+        link: 'https://www.prisjakt.nu/produkt.php?p=5405333'
       },
       {
         title: 'Marvel’s Spider-Man: Miles Morales',
@@ -113,7 +113,7 @@ export class LandingPageComponent implements OnInit {
           'Discover the complete web-slinging story with the Marvel’s Spider-Man: Miles Morales.'
         ],
         imageName: 'miles-morales.jpg',
-        link: ''
+        link: 'https://www.prisjakt.nu/produkt.php?p=5405328'
       },
       {
         title: 'Assassins Creed Valhalla',
@@ -123,7 +123,7 @@ export class LandingPageComponent implements OnInit {
           'Målet är att etablera ett nytt permanent hem, kosta vad det kosta vill.'
         ],
         imageName: 'valhalla.jpg',
-        link: ''
+        link: 'https://www.prisjakt.nu/produkt.php?p=5356342'
       },
       {
         title: 'Philips Hue White Filament',
@@ -133,7 +133,7 @@ export class LandingPageComponent implements OnInit {
           'Skapa rotationsscheman, kontrollera ljuset från andra sidan världen eller skapa dig bara en mer bekväm vardag med hjälp av belysning i behagligt vitt som du kan dimma, tända och släcka när du vill.'
         ],
         imageName: 'hue-filament.jpg',
-        link: ''
+        link: 'https://www.prisjakt.nu/search?search=Philips%20Hue%20White%20Filament'
       },
       {
         title: 'Google Nest Audio',
@@ -143,7 +143,17 @@ export class LandingPageComponent implements OnInit {
           'Du kan styra smarta enheter i ditt hushåll, få meddelanden och nyheter via Google Assistant eller få hjälp att installera ditt ljud-system.'
         ],
         imageName: 'nest-audio.jpg',
-        link: ''
+        link: 'https://www.prisjakt.nu/produkt.php?p=5549885'
+      },
+      {
+        title: 'Tommy Hilfiger Strumpor',
+        category: 'Män > Underkläder > Strumpor',
+        description: [
+          'Långa strumpor från Tommy Hilfiger som man kan ha i vinterskorna.',
+          'Passar perfekt på Marcus fötter.'
+        ],
+        imageName: 'socks.png',
+        link: 'https://www.boozt.com/se/sv/tommy-hilfiger-socks/th-men-sock-5p-fine-stripe-tin-gift_27303924/212485798?navId=67924&group=listing&position=1000000'
       }
     ];
   }
@@ -151,4 +161,7 @@ export class LandingPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public clickLink(item: WishItem): void {
+    window.location.href = item.link;
+  }
 }
