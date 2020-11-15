@@ -47,6 +47,16 @@ export class LandingPageComponent implements OnInit {
 
     this.items = [
       {
+        title: 'Scanpan CTX Stekpanna Set',
+        category: 'Kokkärl & Stekpannor > Stekpannor',
+        description: [
+          'Ett utmärkt val för den som enkelt vill bli ett proffs i köket och få ut det bästa av sin stekpanna.',
+          'CTX eller ”Ceramic Titanium Extreme”- är ett teknologiskt genombrott som kombinerar högklassig beläggning med rostfritt stål och skapar en produkt helt i en klass för sig.'
+        ],
+        imageName: 'ctx.jpg',
+        link: 'https://www.prisjakt.nu/produkt.php?p=2395779'
+      },
+      {
         title: 'Playstation 5',
         category: 'Spel > PlayStation 5 > Konsol',
         description: [
