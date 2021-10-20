@@ -47,123 +47,90 @@ export class LandingPageComponent implements OnInit {
 
     this.items = [
       {
-        title: 'Scanpan CTX Stekpanna Set',
-        category: 'Kokkärl & Stekpannor > Stekpannor',
+        title: 'Sonos Beam',
+        category: 'Ljud & bild > Soundbars',
         description: [
-          'Ett utmärkt val för den som enkelt vill bli ett proffs i köket och få ut det bästa av sin stekpanna.',
-          'CTX eller ”Ceramic Titanium Extreme”- är ett teknologiskt genombrott som kombinerar högklassig beläggning med rostfritt stål och skapar en produkt helt i en klass för sig.'
+          'Nu kan du enkelt berika din underhållningsupplevelse med den senaste generationen av vår kompakta smarta soundboard, utrustad med Dolby Atmos.',
+          'Njut av panoramaljud för serier, filmer och spel när TV:n är på och strömma musik, radio med mera när den är avstängd. Styr enkelt med Sonos-appen, din fjärrkontroll, din röst och Apple AirPlay 2.'
         ],
-        imageName: 'ctx.jpg',
-        link: 'https://www.prisjakt.nu/produkt.php?p=2395779'
+        imageName: 'sonos-beam.jpg',
+        link: 'https://www.prisjakt.nu/produkt.php?p=5855366'
       },
       {
-        title: 'Playstation 5',
-        category: 'Spel > PlayStation 5 > Konsol',
+        title: 'Yamaha SR-B20A',
+        category: 'Ljud & bild > Soundbars',
         description: [
-          'Playstation 5 är Sonys kommande konsol och med tanke på hur imponerande Playstation 4 har varit under så lång tid så är hypen stor!',
-          'Dessutom har Sony flertalet exklusiva titlar som enligt rykten kan komma att släppas i samband med den nya konsolen.'
+          'En lite billigare variant som är bättre för plånboken.',
+          'Sätt på filmen och upplev ljud från vänster, höger, framför och bakom dig – till och med ovanför dig! Med virtuellt 3D-surroundljud och DTS Virtual:X-teknik får du en omslutande ljudupplevelse.'
         ],
-        imageName: 'ps5.jpg',
-        link: 'https://www.prisjakt.nu/produkt.php?p=5113846'
+        imageName: 'yamaha.jpg',
+        link: 'https://www.prisjakt.nu/produkt.php?p=5495721'
       },
       {
-        title: 'Kupévärmare',
-        category: 'Bil > Byffan > Värmare',
+        title: 'Uppspel',
+        category: 'Gamingstolar & gamingbord > Gaming tillbehör',
         description: [
-          'Liten, smidig och effektiv kupévärmare som monteras enkelt och diskret i bilen. Effekt 1200W, passar bilar med lite mindre kupé. Med vanlig stickkontakt (schuko).',
-          'Passar perfekt till Byffan.'
+          'Det här stället med hjul gör det enkelt att flytta din dator till TV:n i vardagsrummet eller när det är dags att städa och du vill komma åt överallt.'
         ],
-        imageName: 'kupe.png',
-        link: ''
+        imageName: 'cpu-stall.jpg',
+        link: 'https://www.ikea.com/se/sv/p/uppspel-cpu-staell-med-hjul-moerkgra-40507785/'
       },
       {
-        title: 'Philips Premium Airfryer',
-        category: 'Hem & Hushåll > Köksmaskiner > Airfryer',
+        title: 'Sjömärke',
+        category: 'Hemelektronik > Sladdar & laddare > Trådlös laddning & tillbehör',
         description: [
-          'En Airfryer som både kan tänka och laga din mat.',
-          'Nya Philips Airfryer XXL HD9867 kan med sin Smart Sensing-teknik automatiskt anpassa tid och temperatur under tillagningen av din mat för att ge dig perfekt tillagade maträtter.'
+          'Gör ett magiskt trick och ladda telefonen direkt på bordsskivan eller hyllplanet. Hemligheten är denna trådlösa laddare som monteras dolt på möbeln – enkel laddning med teknik som smälter in i inredningen!'
         ],
-        imageName: 'airfryer.jpg',
-        link: 'https://www.prisjakt.nu/produkt.php?p=5357198'
+        imageName: 'sjomarke.jpg',
+        link: 'https://www.ikea.com/se/sv/p/sjoemaerke-tradloes-laddare-50492482/'
       },
       {
-        title: 'Playstation 5 - Charging Station',
-        category: 'Spel > PlayStation 5 > Konsol',
+        title: 'Lånespelare',
+        category: 'Gamingstolar & gamingbord > Gaming tillbehör',
         description: [
-          'The PS5 DualSence Dual Charger is capable of charging 2 wireless controllers simultaneously, all in one sleek unit.',
-          'The PS5 DualSence Dual Charger will recharge your wireless DualSence controller\'s batteries simply by docking the controllers into the Charger stand. Its LED lights indicate when charging is complete.'
+          'Den här mugghållaren spänner du enkelt fast i ditt skrivbord för att ha något läskande att dricka inom räckhåll när du spelar – på säkert avstånd från både tangentbord och datormus.'
         ],
-        imageName: 'charging.jpg',
-        link: 'https://www.prisjakt.nu/search?search=ps5%20charging%20station'
+        imageName: 'lanespelare.jpg',
+        link: 'https://www.ikea.com/se/sv/p/lanespelare-mugghallare-svart-90507844/'
       },
       {
-        title: 'Playstation 5 - DualSense handkontroll',
-        category: 'Spel > PlayStation 5 > Handkontroller',
+        title: 'Lånespelare',
+        category: 'Gamingstolar & gamingbord > Gaming tillbehör',
         description: [
-          'Playstation Sony tar ett hopp i generationsutvecklingen med sin DualSense handkontroll, som kommer vara kontrollen som hör till PS5 när den släpps i november 2020.',
-          'Kontrollen tar ett avsteg i design från de tidigare Dualshock – kontrollerna, med en mycket mer slät design.'
+          'Den här breda spelmusmattan passar dig som vill ha både mus och tangentbord på samma stadiga, släta underlag. Här kan du röra musen fort och utan ansträngning för att vinna även den tuffaste fighten.'
         ],
-        imageName: 'controll.jpg',
-        link: 'https://www.prisjakt.nu/produkt.php?p=5334714'
+        imageName: 'musmatta.jpg',
+        link: 'https://www.ikea.com/se/sv/p/lanespelare-spelmusmatta-moenstrad-70507816/'
       },
       {
-        title: 'Demon’s Souls',
-        category: 'Spel > PlayStation 5 > Spel',
+        title: 'Mulig',
+        category: 'Tvätt & städ > Torkställningar',
         description: [
-          'From Bluepoint Games comes a remake of the PlayStation classic, Demon’s Souls™.',
-          'Entirely rebuilt from the ground up and masterfully enhanced, this remake introduces the horrors of a fog-laden, dark fantasy land to a whole new generation of gamers.'
+          'Perfekt för sänglinne och stora handdukar eftersom torkställningen är extra bred.',
+          'Enkel att fälla ihop och ställa undan.'
         ],
-        imageName: 'demon-souls.jpg',
-        link: 'https://www.prisjakt.nu/produkt.php?p=5405333'
+        imageName: 'mulig.jpg',
+        link: 'https://www.ikea.com/se/sv/p/mulig-torkstaellning-3-plan-inom-utomhus-vit-20219658/'
       },
       {
-        title: 'Marvel’s Spider-Man: Miles Morales',
-        category: 'Spel > PlayStation 5 > Spel',
+        title: 'Tvättkorg, 3 fack',
+        category: 'Tvätt & städ > Tvättkorg',
         description: [
-          'Discover the complete web-slinging story with the Marvel’s Spider-Man: Miles Morales.'
+          'Organisera din smutsiga tvätt på ett effektivt och smidigt sätt. Minimera tiden i tvättstugan.',
+          'Den stora påsen med tre olika fack är löstagbar med handtag som gör att du enkelt kan förflytta din smutsiga tvätt mellan badrummet och tvättstugan.'
         ],
-        imageName: 'miles-morales.jpg',
-        link: 'https://www.prisjakt.nu/produkt.php?p=5405328'
+        imageName: 'tvattkorg.png',
+        link: 'https://www.amazon.se/Imagine-orange-hopf%C3%A4llbar-tv%C3%A4ttkorg-smutsiga/dp/B07VPGBS88/ref=sr_1_2?crid=K9SOOQT7NB17&dchild=1&keywords=tv%C3%A4ttkorg+3+fack&qid=1634738725&sprefix=tv%C3%A4ttkorg%2Caps%2C200&sr=8-2'
       },
       {
-        title: 'Assassins Creed Valhalla',
-        category: 'Spel > PlayStation 4(5) > Spel',
+        title: 'Förvaringspåsar RECYCLE, 39x17xH44',
+        category: 'Hem & inredning > Organisera > Förvaring',
         description: [
-          'Det eviga krigandet och tynande resurser driver vikingen Eivor att leda en klan över den iskalla Nordsjön till den bördiga marken i Englands ansträngda kungadömen.',
-          'Målet är att etablera ett nytt permanent hem, kosta vad det kosta vill.'
+          'Förvaringspåsar i bomullscanvas för källsortering.',
+          'Kommer i trepack och har handtag upptill.'
         ],
-        imageName: 'valhalla.jpg',
-        link: 'https://www.prisjakt.nu/produkt.php?p=5356342'
-      },
-      {
-        title: 'Philips Hue White Filament',
-        category: 'Nätverk & Smarta Hem > Smarta Hem > Belysning',
-        description: [
-          'Philips Hue White är den mest grundläggande smarta belysning som ger dig fantastiskt ljus och komfort i form av fri kontroll av belysning när du är hemma och ute.',
-          'Skapa rotationsscheman, kontrollera ljuset från andra sidan världen eller skapa dig bara en mer bekväm vardag med hjälp av belysning i behagligt vitt som du kan dimma, tända och släcka när du vill.'
-        ],
-        imageName: 'hue-filament.jpg',
-        link: 'https://www.prisjakt.nu/search?search=Philips%20Hue%20White%20Filament'
-      },
-      {
-        title: 'Google Nest Audio',
-        category: 'Nätverk & Smarta Hem > Smarta Hem > Wi-Fi',
-        description: [
-          'Röstaktiverade Google Nest Audio är en smart assistent med tydligt ljud och bas som fyller hela rummet.',
-          'Du kan styra smarta enheter i ditt hushåll, få meddelanden och nyheter via Google Assistant eller få hjälp att installera ditt ljud-system.'
-        ],
-        imageName: 'nest-audio.jpg',
-        link: 'https://www.prisjakt.nu/produkt.php?p=5549885'
-      },
-      {
-        title: 'Tommy Hilfiger Strumpor',
-        category: 'Män > Underkläder > Strumpor',
-        description: [
-          'Långa strumpor från Tommy Hilfiger som man kan ha i vinterskorna.',
-          'Passar perfekt på Marcus fötter.'
-        ],
-        imageName: 'socks.png',
-        link: 'https://www.boozt.com/se/sv/tommy-hilfiger-socks/th-men-sock-5p-fine-stripe-tin-gift_27303924/212485798?navId=67924&group=listing&position=1000000'
+        imageName: 'forvaring.jpg',
+        link: 'https://www.ahlens.se/Inredning/organisera/forvaring-15071/ahlens-forvaringspasar-recycle-39x17xh44-green-61006069/?gclid=CjwKCAjw_L6LBhBbEiwA4c46utvJs4mVGcpKD54CeUAI2R6mYb9Qp1jyB4zzyETPQRAhnw1tfsMvWRoCZtsQAvD_BwE'
       }
     ];
   }
