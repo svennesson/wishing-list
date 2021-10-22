@@ -67,6 +67,16 @@ export class LandingPageComponent implements OnInit {
         link: 'https://www.prisjakt.nu/produkt.php?p=5495721'
       },
       {
+        title: 'Lenovo Smart Clock 2 med trådlös laddningsplatta',
+        category: 'Smart Hem > Röstassistenter',
+        description: [
+          'Lenovo Smart Clock 2 med Google Assistant är en smart enhet som kan driva ditt smarta hem, spela din favoritmusik och mer.',
+          'Den kommer med en praktisk Qi trådlös laddningsplatta som kan ladda din telefon och andra kompatibla enheter.'
+        ],
+        imageName: 'smart-clock.jpg',
+        link: 'https://www.elgiganten.se/product/smart-hem/alla-smarta-produkter/327208/lenovo-smart-clock-2-med-qi-tradlos-laddningsplatta-gra'
+      },
+      {
         title: 'Uppspel',
         category: 'Gamingstolar & gamingbord > Gaming tillbehör',
         description: [
