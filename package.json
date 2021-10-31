@@ -25,7 +25,8 @@
     "angular-cli-ghpages": "^0.6.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "dayjs": "^1.8.21"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.2.12",

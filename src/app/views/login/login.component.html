@@ -1,0 +1,38 @@
+<div class="grid grid-cols-3">
+  <div class="col-span-2 relative background-image">
+<!--    <img style="max-height: 93.2vh" alt="" src="assets/images/login-page/pexels-andrea-piacquadio-1050336.jpg" />-->
+    <div [ngClass]="{'absolute left-56 bottom-56 p-4 text-center': true, 'animate-bounce': false}">
+      <p class="text-7xl text-white">Happy wishing!</p>
+    </div>
+  </div>
+
+  <div class="p-10 ">
+    <mat-card class="mat-elevation-z8 text-center h-3/4 m-auto">
+      <mat-card-header>
+        <mat-card-title>
+          <h2 class="mb-0">Sign in</h2>
+        </mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content>
+        <form [formGroup]="form" (ngSubmit)="loginUser()">
+          <div class="form-group">
+            <mat-form-field appearance="fill">
+              <mat-label>Email</mat-label>
+              <input matInput placeholder="user@gmail.com" formControlName="email">
+            </mat-form-field>
+          </div>
+
+          <div class="form-group">
+            <mat-form-field appearance="fill">
+              <mat-label>Password</mat-label>
+              <input matInput type="password" placeholder="********" formControlName="password">
+            </mat-form-field>
+          </div>
+
+          <button type="submit" mat-raised-button color="primary">Log in</button>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

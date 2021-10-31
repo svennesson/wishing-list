@@ -1,0 +1,26 @@
+<div class="container mx-auto mt-16 divide-y-2">
+  <div class="flex justify-between items-center pb-4">
+    <p class="text-4xl" style="margin: 0;">Existing wishing lists</p>
+    <div>
+      <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
+        <mat-icon>add</mat-icon>
+      </button>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-5 gap-8 pt-8">
+    <mat-card class="example-card hover:shadow-2xl" *ngFor="let list of lists">
+      <img [src]="'assets/images/login-page/' + list.imageUrl" [alt]="list.name">
+
+      <mat-card-content class="p-6 px-3">
+        <mat-card-title>{{ list.name }}</mat-card-title>
+        <mat-card-subtitle>{{ list.created }}</mat-card-subtitle>
+      </mat-card-content>
+<!--      <div class="card-content">-->
+<!--        <mat-card-actions>-->
+<!--          <button mat-button (click)="clickLink(list)">LÄNK</button>-->
+<!--        </mat-card-actions>-->
+<!--      </div>-->
+    </mat-card>
+  </div>
+</div>

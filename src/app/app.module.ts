@@ -9,6 +9,11 @@ import {AngularMaterialModule} from './shared/angular-material/angular-material.
 import { FooterComponent } from './container/footer/footer.component';
 import { WishingListDetailComponent } from './views/wishing-list-detail/wishing-list-detail.component';
 import { LandingPageComponent } from './views/landing-page/landing-page.component';
+import { LoginComponent } from './views/login/login.component';
+import { RegisterComponent } from './views/register/register.component';
+import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
+import {AuthInterceptor} from './shared/interceptor/auth.interceptor';
+import { WishingListComponent } from './views/wishing-list/wishing-list.component';
 
 @NgModule({
   declarations: [
@@ -16,15 +21,21 @@ import { LandingPageComponent } from './views/landing-page/landing-page.componen
     NavbarComponent,
     FooterComponent,
     WishingListDetailComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    LoginComponent,
+    RegisterComponent,
+    WishingListComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        AngularMaterialModule
-    ],
-  providers: [],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    AngularMaterialModule,
+    HttpClientModule
+  ],
+  providers: [
+    {provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
