@@ -1,22 +1,8 @@
-.example-card {
-  max-width: 300px;
-  min-height: 690px;
-}
-
-.example-header-image {
-  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+.main-background {
+  min-height: 80vh;
+  //background-image: url("/assets/images/landing-page/pexels-giftpunditscom-1303081.jpg");
+  //background-image: url("/assets/images/landing-page/pexels-giftpunditscom-1303098.jpg");
+  background-image: url("/assets/images/landing-page/pexels-ylanite-koppens-796606.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-}
-
-img {
-  max-height: 320px;
-  min-height: 320px;
-  object-fit: contain;
-}
-
-.card-content {
-  .mat-card-actions {
-    position: absolute;
-    bottom: 0;
-  }
 }

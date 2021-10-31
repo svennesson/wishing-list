@@ -1,23 +1,12 @@
-<mat-grid-list [cols]="cols" [rowHeight]="height">
-  <mat-grid-tile *ngFor="let item of items">
-    <mat-card class="example-card">
-      <mat-card-header>
-        <mat-card-title>{{ item.title }}</mat-card-title>
-        <mat-card-subtitle>{{ item.category }}</mat-card-subtitle>
-      </mat-card-header>
-      <img mat-card-image [src]="'assets/images/' + item.imageName" [alt]="item.title">
-      <div class="card-content">
-        <mat-card-content>
-          <p *ngFor="let part of item.description">{{ part }}</p>
-        </mat-card-content>
-        <mat-card-actions>
-          <button mat-button (click)="clickLink(item)">LÄNK</button>
-        </mat-card-actions>
-      </div>
-    </mat-card>
-  </mat-grid-tile>
-</mat-grid-list>
+<div class="main-background">
+  <div class="object-none object-top h-full">
+    <h1>Wishing list</h1>
+    <h3>Wishing list</h3>
 
-
-
-
+    <div>
+      <button>Logga in</button>
+      <button>Skapa konto</button>
+      <button class="py-2 px-3 m-2 bg-blue-500 hover:bg-nav-hover-blue rounded-md text-white">Click Me!</button>
+    </div>
+  </div>
+</div>
