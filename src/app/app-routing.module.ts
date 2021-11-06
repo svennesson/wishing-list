@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {WishingListDetailComponent} from './views/wishing-list-detail/wishing-list-detail.component';
+import {WishingListDetailComponent} from './views/wishing-list/wishing-list-detail/wishing-list-detail.component';
 import {LandingPageComponent} from './views/landing-page/landing-page.component';
 import {LoginComponent} from './views/login/login.component';
 import {RegisterComponent} from './views/register/register.component';

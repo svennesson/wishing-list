@@ -1,0 +1,110 @@
+<h1 mat-dialog-title>Create wishing list</h1>
+
+<div mat-dialog-content>
+  <form [formGroup]="addressForm" novalidate (ngSubmit)="onSubmit()">
+
+    <div class="row">
+      <div class="col">
+        <mat-form-field class="full-width">
+          <input matInput placeholder="Title" formControlName="Title">
+        </mat-form-field>
+      </div>
+    </div>
+
+    <div class="flex justify-center mt-4">
+      <div class="rounded-lg shadow-xl bg-gray-50">
+        <div class="m-4">
+          <label class="inline-block mb-2 text-gray-500">Upload
+            Image(jpg,png,svg,jpeg)</label>
+          <div class="flex items-center justify-center w-full">
+            <label class="flex flex-col w-full h-32 border-4 border-dashed hover:bg-gray-100 hover:border-gray-300">
+              <div class="flex flex-col items-center justify-center pt-7">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     class="w-12 h-12 text-gray-400 group-hover:text-gray-600" viewBox="0 0 20 20"
+                     fill="currentColor">
+                  <path fill-rule="evenodd"
+                        d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="pt-1 text-sm tracking-wider text-gray-400 group-hover:text-gray-600">
+                  Select a photo</p>
+              </div>
+              <input type="file" class="opacity-0" />
+            </label>
+          </div>
+        </div>
+<!--        <div class="flex p-2 space-x-4">-->
+<!--          <button class="px-4 py-2 text-white bg-red-500 rounded shadow-xl">Cannel</button>-->
+<!--          <button class="px-4 py-2 text-white bg-green-500 rounded shadow-xl">Create</button>-->
+<!--        </div>-->
+      </div>
+    </div>
+
+    <mat-card-actions class="mt-4">
+      <button mat-raised-button color="primary" type="submit">Submit</button>
+    </mat-card-actions>
+
+<!--    <mat-card class="shipping-card">-->
+<!--      <mat-card-header>-->
+<!--        <mat-card-title>Shipping Information</mat-card-title>-->
+<!--      </mat-card-header>-->
+<!--      <mat-card-content>-->
+<!--        <div class="row">-->
+<!--          <div class="col">-->
+<!--            <mat-form-field class="full-width">-->
+<!--              <input matInput placeholder="Company" formControlName="company">-->
+<!--            </mat-form-field>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--          <div class="col">-->
+<!--            <mat-form-field class="full-width">-->
+<!--              <input matInput placeholder="First name" formControlName="firstName">-->
+<!--              <mat-error *ngIf="addressForm.controls['firstName'].hasError('required')">-->
+<!--                First name is <strong>required</strong>-->
+<!--              </mat-error>-->
+<!--            </mat-form-field>-->
+<!--          </div>-->
+<!--          <div class="col">-->
+<!--            <mat-form-field class="full-width">-->
+<!--              <input matInput placeholder="Last name" formControlName="lastName">-->
+<!--              <mat-error *ngIf="addressForm.controls['lastName'].hasError('required')">-->
+<!--                Last name is <strong>required</strong>-->
+<!--              </mat-error>-->
+<!--            </mat-form-field>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--          <div class="col">-->
+<!--            <mat-form-field class="full-width">-->
+<!--              <textarea matInput placeholder="Address" formControlName="address"></textarea>-->
+<!--              <mat-error *ngIf="addressForm.controls['address'].hasError('required')">-->
+<!--                Address is <strong>required</strong>-->
+<!--              </mat-error>-->
+<!--            </mat-form-field>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--          <div class="col">-->
+<!--            <mat-form-field class="full-width">-->
+<!--              <input matInput #postalCode maxlength="5" placeholder="Postal Code" type="number" formControlName="postalCode">-->
+<!--              <mat-hint align="end">{{postalCode.value.length}} / 5</mat-hint>-->
+<!--            </mat-form-field>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--          <div class="col">-->
+<!--            <mat-radio-group formControlName="shipping">-->
+<!--              <mat-radio-button value="free">Free Shipping</mat-radio-button>-->
+<!--              <mat-radio-button value="priority">Priority Shipping</mat-radio-button>-->
+<!--              <mat-radio-button value="nextday">Next Day Shipping</mat-radio-button>-->
+<!--            </mat-radio-group>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </mat-card-content>-->
+<!--      <mat-card-actions>-->
+<!--        <button mat-raised-button color="primary" type="submit">Submit</button>-->
+<!--      </mat-card-actions>-->
+<!--    </mat-card>-->
+  </form>
+</div>

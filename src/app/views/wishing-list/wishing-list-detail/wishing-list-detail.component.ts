@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {WishItem} from '../../shared/model/wish-item';
+import {WishItem} from '../../../shared/model/wish-item';
 import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 
 @Component({
